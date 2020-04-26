@@ -1,11 +1,11 @@
 .arrow{
-    font-size: 60px;
+    font-size: 50px;
     color:#16697A;
     position: absolute;
-    left: 95%;
-    margin-left: -95px;
-    top: 200%;
-    margin-top: -200px;
+    left: 102%;
+    margin-left: -102px;
+    top: 160%;
+    margin-top: -160px;
     }
     
     .bounce {
@@ -26,3 +26,8 @@
         }
       }
       
+      @media (max-width: 40em) {
+        .scroll {
+        visibility:hidden;
+        }
+        }
