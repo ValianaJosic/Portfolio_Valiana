@@ -2,6 +2,7 @@ import React from 'react';
 import './home.css';
 import Video from '../../assets/videos/hero.mp4'
 import Scroll from '../home/scroll/scroll'
+import Actionbtn from '../home/action-btn/action-btn'
 
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
         <source src={Video} type="video/mp4" />
         Your browser does not support the video tag.
     </video>
+    <Actionbtn/>
     <Scroll/>
     </div>
     </div>
