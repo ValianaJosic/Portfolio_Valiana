@@ -1,0 +1,56 @@
+
+  .vali{
+    display: flex;
+    justify-content: center;
+    padding-left: 70px;
+    width: 40%; 
+    height:40%;
+    border-radius: 50%;
+    }
+    
+    .img{
+      display: flex;
+      justify-content: center;
+    }
+    
+    
+    .about{
+    padding-top: 70px;
+    padding-bottom: 40px;
+    width: 50%; 
+    height:100%;
+    bottom: 0; 
+    animation-name: example;
+    animation-duration: 4s;
+    /* background-color: #3A5C83; */
+    color:   #3A5C83;
+    padding: 0.5em;
+    border-radius: 15px;
+    }
+    
+    .contact-div{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .profile{
+      font-size: 30px;  
+    }
+    
+    .profile-wrapper{
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #E7ECEF;
+      display: flex;
+      flex-direction:row;
+      align-items: center;
+      justify-content: center;
+      padding-left: 80px;
+    }
+    
+.contact-profile{
+  font-size: 30px;
+  border-left: solid 2px #3A5C83;
+  padding-left: 10px;
+  padding-bottom: 30px;
+}

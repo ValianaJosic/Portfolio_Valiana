@@ -4,11 +4,13 @@ import { NavLink } from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
 
 class Nav extends Component {
+    
     constructor() {
         super()
         this.state = {
             open: false,
             hideOrShowHambugerDropDown: 'nav'
+            
         }
     }
 
@@ -55,8 +57,8 @@ class Nav extends Component {
     render() {
         return (
             <Fragment>
-            <div className='navbar'>
             <div className='name'>Valiana Josic</div>
+            <div className='navbar'>
                 {this.state.open ? this.displayMobileMenu() : null}
                 {this.displayHamburgerMenu()}
             </div>
@@ -64,5 +66,6 @@ class Nav extends Component {
         );
     }
 }
+
 
 export default Nav
