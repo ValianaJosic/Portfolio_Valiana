@@ -3,6 +3,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import Vali from '../../../../assets/images/vali.jpg';
 import '../carousel/carousel.css'
+import Me from '../../../../assets/images/me.jpg'
+import Wyn from '../../../../assets/images/wyn.jpg'
 
  
 class DemoCarousel extends Component {
@@ -10,16 +12,16 @@ class DemoCarousel extends Component {
         return (
             <Carousel className="carousel"  autoPlay="autoplay" >
                 <div className="carousel-wrapper">
-                    <img alt='Vali' src={Vali} />
-                    <p className="legend" style= {{backgroundColor :'#16697A'}}>I love traveling..</p>
+                    <img className="carousel-img"alt='Vali' src={Vali}/>
+                    <p className="legend" style= {{backgroundColor :'#16697A'}}>I Love Traveling</p>
                 </div>
-                <div>
-                    <img alt= '' src="assets/2.jpeg" />
-                    <p className="legend" style= {{backgroundColor :'#16697A'}}>Hello</p>
+                <div className="carousel-wrapper">
+                    <img className="carousel-img" alt= '' src={Me} />
+                    <p className="legend" style= {{backgroundColor :'#16697A'}}>Wyncode Graduate</p>
                 </div>
-                <div>
-                    <img alt= '' src="assets/3.jpeg" />
-                    <p className="legend" style= {{backgroundColor :'#16697A'}}>Hi</p>
+                <div className="carousel-wrapper">
+                    <img className="carousel-img" alt= '' src={Wyn} />
+                    <p className="legend" style= {{backgroundColor :'#16697A'}}>C35</p>
                 </div>
             </Carousel>
         );

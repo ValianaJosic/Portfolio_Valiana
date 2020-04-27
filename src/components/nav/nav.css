@@ -2,7 +2,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 325px;
+    width: 520px;
     background-color: #489FB5;
     border-radius: 10px;
     margin: 0;
@@ -40,13 +40,22 @@
 }
 
 .name{
-  font-family: 'Merriweather', serif;
   color: #FDFCF9;
-  font-size: 40px;
   position: absolute;
-  left: 0;
+  left: 65%;
   top: 0;
   padding:30px;
+  text-align: center;
+}
+
+.dev{
+  font-size: 50px;
+  font-family: 'Merriweather', serif;
+}
+
+.dev-name{
+  font-size: 20px;
+  font-family: 'Lato', sans-serif; 
 }
 
 
