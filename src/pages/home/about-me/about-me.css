@@ -1,0 +1,79 @@
+
+  .vali{
+    display: flex;
+    justify-content: center;
+    padding-left: 70px;
+    width: 40%; 
+    height:40%;
+    border-radius: 50%;
+   
+    }
+    
+    .img{
+      display: flex;
+      
+    }
+    
+    
+    .about{
+    padding-top: 70px;
+    padding-bottom: 40px;
+    width: 50%; 
+    height:100%;
+    bottom: 0; 
+    animation-name: example;
+    animation-duration: 4s;
+    /* background-color: #3A5C83; */
+    color:   #16697A;
+    padding: 0.5em;
+    border-radius: 15px;
+   
+    }
+    
+    .contact-div{
+    display: flex;
+    flex-direction: row;
+
+    }
+      
+    .profile-wrapper{
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #FDFCF9;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+      align-items: center;
+      justify-content: center;
+      padding-left: 200px;
+     
+    }
+    
+.contact-profile{
+  font-size: 30px;
+  padding-bottom: 30px;
+  font-family: 'Merriweather', serif;
+}
+
+.info{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 40em) {
+    .profile-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin:0;
+        padding-left:150px
+        
+    }
+    .img{
+        width: 55%;
+        height: 55%;
+    }
+    }
+

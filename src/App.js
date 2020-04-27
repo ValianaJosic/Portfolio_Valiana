@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -6,9 +5,7 @@ import Home from './pages/home/home';
 import Projects from './pages/projects/projects';
 import Contact from './pages/contact/contact';
 import Navigation from './components/nav/nav';
-import Footer from './components/footer/footer'
-
-
+import Footer from './components/footer/footer';
 
 class App extends Component {
   render() {

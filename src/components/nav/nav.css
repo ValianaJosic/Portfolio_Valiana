@@ -1,5 +1,5 @@
 .hamburgerDropDown {
-    position: fixed;
+    position: absolute;
     right: 0;
     top: 0;
     width: 325px;
@@ -14,7 +14,7 @@
   
   .navbar {
     right: 0;
-    position: fixed;
+    position: absolute;
     display: inline-block;
     padding-right: 20px;
     z-index: 100;
@@ -43,7 +43,7 @@
   font-family: 'Merriweather', serif;
   color: #FDFCF9;
   font-size: 40px;
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   padding:30px;
@@ -52,6 +52,10 @@
 
 @media (max-width: 40em) {
   .hamburgerDropDown {
-  width: 90%;
+  width: 500%;
+  }
+
+  .name{
+    visibility:hidden;
   }
   }
