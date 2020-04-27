@@ -4,6 +4,7 @@ import Desktop from '../../assets/images/desktop.jpg'
 
 
 export default class MyForm extends React.Component {
+  
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
@@ -12,8 +13,11 @@ export default class MyForm extends React.Component {
     };
   }
 
+
   render() {
+    
     const { status } = this.state;
+
     return (
       <Fragment>
       <div><img alt='' src={Desktop} className='desktop'></img></div>
