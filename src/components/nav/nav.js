@@ -4,13 +4,13 @@ import { NavLink } from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
 
 class Nav extends Component {
-    
+
     constructor() {
         super()
         this.state = {
             open: false,
             hideOrShowHambugerDropDown: 'nav'
-            
+
         }
     }
 
@@ -48,8 +48,11 @@ class Nav extends Component {
         return (
             <ul className='hamburgerDropDown'>
                 <li className='nav-link'><NavLink to='/' className='nav-name'>Home</NavLink></li>
-                <li className='nav-link'><NavLink to='/projects'className='nav-name'>Projects</NavLink></li>
-                <li className='nav-link'><NavLink to='/contact'className='nav-name'>Contact</NavLink></li>
+                <li className='nav-link'><NavLink to='/projects' className='nav-name'>Projects</NavLink></li>
+                <li className='nav-link'><NavLink to='/contact' className='nav-name'>Contact</NavLink></li>
+                <li className="nav-link"><a href="https://www.linkedin.com/in/valiana-josic/" target="_blank" rel="noopener  noreferrer" className="nav-name">
+                    <i className="fa fa-linkedin"></i>
+                </a></li>
             </ul>
         )
     }
@@ -57,15 +60,15 @@ class Nav extends Component {
     render() {
         return (
             <Fragment>
-            <div className='name'>
-                <span className='dev'>Valiana Josic</span>
-                <br></br>
-                <span classname ='dev-name'>Web Developer</span>
-            </div>
-            <div className='navbar'>
-                {this.state.open ? this.displayMobileMenu() : null}
-                {this.displayHamburgerMenu()}
-            </div>
+                <div className='name'>
+                    <span className='dev'>Valiana Josic</span>
+                    <br></br>
+                    <span classname='dev-name'>Web Developer</span>
+                </div>
+                <div className='navbar'>
+                    {this.state.open ? this.displayMobileMenu() : null}
+                    {this.displayHamburgerMenu()}
+                </div>
             </Fragment>
         );
     }
