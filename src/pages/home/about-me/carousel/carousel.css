@@ -3,7 +3,9 @@
     height:60%;
 }
 
-
+p.legend, .slide, p, .legend {
+   background: #16697A;
+}
 @media (max-width: 40em) {
 
     .carousel{
