@@ -4,6 +4,7 @@ import Desktop from '../../assets/images/desktop.jpg'
 
 
 export default class MyForm extends React.Component {
+  
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
@@ -12,8 +13,11 @@ export default class MyForm extends React.Component {
     };
   }
 
+
   render() {
+    
     const { status } = this.state;
+
     return (
       <Fragment>
       <div><img alt='' src={Desktop} className='desktop'></img></div>
@@ -28,7 +32,7 @@ export default class MyForm extends React.Component {
         <label  className='form-label'>Email</label>
         <input className='form-input' type="email" name="email" />
         <label  className='form-label'>Message</label>
-        <textarea className='form-input' type="textarea" name="message" />
+        <textarea className='form-area' type="textarea" name="message" />
         {status === "SUCCESS" ? <p>Thanks!</p> : <button className='form-btn'>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>

@@ -1,0 +1,79 @@
+.card-title{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    color: #16697A;
+    background-color: #FDFCF9;
+    padding-left: 20px;
+}
+
+.card-img-top{
+    border-radius: 10px;
+}
+
+.card-btn{
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    background-color:#16697A;   
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 50px;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.card-btn-font{
+    color: #FDFCF9;
+
+}
+
+.card-text{
+    background-color: #FDFCF9;
+    font-family: 'Lato', sans-serif;
+    color: #489FB5;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.card{
+    background-color: #FDFCF9;
+    height: 280px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: -1rem 0 2rem #489FB5;
+    margin-left: -50px;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;  
+}
+
+
+.card:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.card-wrapper{
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    top: 60px;
+    left: calc(50% - 300px);
+    display: flex;
+    padding-top: 100px; 
+}
+
+.Site-content{
+    background-color: #FDFCF9;
+}

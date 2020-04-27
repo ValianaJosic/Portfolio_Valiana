@@ -6,6 +6,7 @@ import Projects from './pages/projects/projects';
 import Contact from './pages/contact/contact';
 import Navigation from './components/nav/nav';
 import Footer from './components/footer/footer';
+import Loader from './components/loader/loader'
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
       <BrowserRouter>
         <div className="App Site">
           <div className="Site-content">
+            <Loader/>
             <Navigation />
             <Switch>
               <Route path="/" component={Home} exact />

@@ -3,15 +3,22 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     padding-left: 40px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
     position: absolute;
     left: 35%;
     margin-left: -35px;
-    top: 20%;
-    margin-top: -20px;
+    top: 15%;
+    margin-top: -15px;
 }
 
 .form-input{
+    height: 25px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.form-area{
+    height: 80px;
     width: 500px;
     border-radius: 5px;
 }
@@ -27,7 +34,7 @@
     border-radius: 10px;
 }
 
-button{
+.form-btn{
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     color: #FDFCF9;
