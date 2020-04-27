@@ -52,6 +52,10 @@
 
 @media (max-width: 40em) {
   .hamburgerDropDown {
-  width: 90%;
+  width: 500%;
+  }
+
+  .name{
+    visibility:hidden;
   }
   }

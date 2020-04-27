@@ -1,29 +1,36 @@
 import React from 'react';
 import '../../home/about-me/about-me.css'
-import Vali from '../../../assets/images/vali.jpg'
+import Carousel from  '../about-me/carousel/carousel'
+
 
 
 function About() {
 
     return (
         <div className="profile-wrapper">
-            <div className="profile">
-            </div>
             <div className="about">
-                <div className="contact-profile">Thais Reyes
-    <br></br>
-                Real Estate Advisor
-    <br></br>
-                </div>
-            Thais Reyes is an experienced Real Estate advisor, a Venezuelan native, who moved to Miami in 1995, captivated by the beauty of Miami, from its pristine beaches, excellent year round weather, cultural diversity, lifestyle, and ever-growing industries. Thais is adamant about the advantages of owning property in South Florida.
+                <div className="contact-profile">Hello World! My name is Valiana Josic...
+  
         <br></br>
-            Thais has a passion for the real estate profession, dedication, attention to detail, strong negotiation skills, efficient real estate transactions process and has successfully closed commercial leases as well as residential real estate transactions.<br></br>
-                <br></br>
-            </div>
-            <div className="img">
-                <img src={Vali} alt="vali" className="vali" />
-            </div>
         </div>
+        <div className="info">
+            I worked in hospitality for 9 years and entered a coding bootcamp ( Wyncode !) wanting to create a better future for my daughter and I.
+            <br></br>
+            <br></br>
+            Hispanic women are considered  minorities in the tech field so I wanted to break these norms and create more possibilities for my daughters future.  Now as a Web Developer I've already shown my daughter you can do anything with persitance and hard work.
+            <br></br>
+            <br></br>
+            I strongly believe in using tech for good by implementing solutions to improve our society and environment in a positive direction. 
+            <br></br>
+            <br></br>
+            </div>   
+        </div>
+        <div className="img">
+            <Carousel/>
+            </div> 
+        </div>
+        
+        
     )
 };
 
