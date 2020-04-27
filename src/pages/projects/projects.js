@@ -6,7 +6,7 @@ import Thais from '../../assets/images/thais.png'
 
 function Projects() {
   return (
-    <div className='card-wrapper'>
+    <div className='card-wrapper' >
     <Card className= 'card'style={{ width: '18rem' }}>
       <Card.Img style={{ width: '18rem'}} variant="top" src={Thais} />
       <Card.Body>
