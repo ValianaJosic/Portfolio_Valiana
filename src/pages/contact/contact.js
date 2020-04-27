@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import './contact.css';
+import Desktop from '../../assets/images/desktop.jpg'
 
 
 export default class MyForm extends React.Component {
@@ -14,6 +15,8 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     return (
+      <Fragment>
+      <div><img alt='' src={Desktop} className='desktop'></img></div>
       <form
         onSubmit={this.submitForm}
         action="https://formspree.io/mwkrelqj"
@@ -29,6 +32,7 @@ export default class MyForm extends React.Component {
         {status === "SUCCESS" ? <p>Thanks!</p> : <button className='form-btn'>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
+      </Fragment>
     );
   }
 
