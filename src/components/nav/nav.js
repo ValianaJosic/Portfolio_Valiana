@@ -57,7 +57,11 @@ class Nav extends Component {
     render() {
         return (
             <Fragment>
-            <div className='name'>Valiana Josic</div>
+            <div className='name'>
+                <span className='dev'>Valiana Josic</span>
+                <br></br>
+                <span classname ='dev-name'>Web Developer</span>
+            </div>
             <div className='navbar'>
                 {this.state.open ? this.displayMobileMenu() : null}
                 {this.displayHamburgerMenu()}

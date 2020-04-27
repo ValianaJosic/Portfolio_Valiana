@@ -9,8 +9,7 @@ function About() {
     return (
         <div className="profile-wrapper">
             <div className="about">
-                <div className="contact-profile">Hello World! My name is Valiana Josic...
-  
+                <div className="contact-profile">Hello World! My name is Valiana Josic
         <br></br>
         </div>
         <div className="info">
