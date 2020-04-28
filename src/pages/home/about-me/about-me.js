@@ -9,7 +9,7 @@ function About() {
     return (
         <div className="profile-wrapper">
             <div className="about">
-                <div className="contact-profile"> Valiana Josic
+                <div className="contact-profile"> About
         <br></br>
         </div>
         <div className="info">
@@ -20,6 +20,9 @@ function About() {
             <br></br>
             <br></br>
             I strongly believe in using tech for good by implementing solutions to improve our society and environment in a positive direction. 
+            <br></br>
+            <br></br>
+            - Valiana
             <br></br>
             <br></br>
             </div>   
