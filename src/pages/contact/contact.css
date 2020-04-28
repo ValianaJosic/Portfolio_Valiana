@@ -94,8 +94,8 @@ input:focus, textarea {
  
 }
     .form{
-        position: fixed;
-        top: 200px;
+        position: relative;
+        top: 20px;
         left: 50px;
     }
         }
