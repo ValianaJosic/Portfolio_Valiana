@@ -69,18 +69,11 @@
 @media (max-width: 40em) {
 
  
-  footer{
-    position: relative;
-   }
-   html,body {
-       height: 100%; 
-   }
-   
-   .container{
-       min-height:100%;
-       margin-bottom: -40px;
-       padding-bottom: 40px; 
-   }
+ .footer{
+   position: relative;
+   bottom: 0;
+   width: 100%;
+ }
   
   
    
