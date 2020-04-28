@@ -13,15 +13,15 @@ class DemoCarousel extends Component {
             <Carousel className="carousel"  autoPlay="autoplay" >
                 <div className="carousel-wrapper">
                     <img className="carousel-img"alt='Vali' src={Vali}/>
-                    <p className="legend" style= {{backgroundColor :'#16697A'}}>I Love Traveling</p>
+                    {/* <p className="legend" style= {{backgroundColor :'#16697A'}}>I Love Traveling</p> */}
                 </div>
                 <div className="carousel-wrapper">
                     <img className="carousel-img" alt= '' src={Me} />
-                    <p className="legend" style= {{backgroundColor :'#16697A'}}>Wyncode Graduate</p>
+                    {/* <p className="legend" style= {{backgroundColor :'#16697A'}}>Wyncode Graduate</p> */}
                 </div>
                 <div className="carousel-wrapper">
                     <img className="carousel-img" alt= '' src={Wyn} />
-                    <p className="legend" style= {{backgroundColor :'#16697A'}}>C35</p>
+                    {/* <p className="legend" style= {{backgroundColor :'#16697A'}}>C35</p> */}
                 </div>
             </Carousel>
         );

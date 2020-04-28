@@ -11,6 +11,10 @@ p.legend, p, .legend {
    background: #16697A;
 }
 
+.carousel-status{
+    visibility:hidden;
+}
+
 @media (max-width: 40em) {
 
     .carousel{
