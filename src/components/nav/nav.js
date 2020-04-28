@@ -65,7 +65,7 @@ class Nav extends Component {
             <Fragment>
                 <div className='name'>
                     <span className='dev'>Valiana Josic</span>
-                    <br></br>
+                   <div></div>
                     <span classname='dev-name'>Web Developer</span>
                 </div>
                 <div className='navbar'>

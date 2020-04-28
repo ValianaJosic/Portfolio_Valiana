@@ -27,7 +27,7 @@
     color:  #489FB5;
     padding: 0.5em;
     border-radius: 15px;
-   
+    
     }
     
     .contact-div{
@@ -51,15 +51,17 @@
     
 .contact-profile{
   font-size: 30px;
-  padding-bottom: 30px;
   font-family: 'Merriweather', serif;
   color: #16697A;
+  border-bottom: 2px solid #489FB5;
+  padding-bottom: 10px;
 }
 
 .info{
     font-family: 'Lato', sans-serif;
     display: flex;
     justify-content: center;
+    padding-top: 40px;
 }
 
 
