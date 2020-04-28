@@ -64,3 +64,17 @@
     padding-left: 5px;
     padding-top: 2px;
   }
+
+  
+@media (max-width: 40em) {
+
+ 
+ .footer{
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+ }
+  
+  
+   
+      }
