@@ -42,7 +42,7 @@
       background-color: #FDFCF9;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-gap: 10px;
+      grid-gap: 5px;
       align-items: center;
       justify-content: center;
       padding-left: 200px;

@@ -10,13 +10,13 @@ import Wyn from '../../../../assets/images/wyn.jpg'
 class DemoCarousel extends Component {
     render() {
         return (
-            <Carousel className="carousel"  autoPlay="autoplay" >
+            <Carousel className="carousel"  >
                 <div className="carousel-wrapper">
-                    <img className="carousel-img"alt='Vali' src={Vali}/>
+                    <img className="carousel-img"alt='Vali' src={Me}/>
                     {/* <p className="legend" style= {{backgroundColor :'#16697A'}}>I Love Traveling</p> */}
                 </div>
                 <div className="carousel-wrapper">
-                    <img className="carousel-img" alt= '' src={Me} />
+                    <img className="carousel-img" alt= '' src={Vali} />
                     {/* <p className="legend" style= {{backgroundColor :'#16697A'}}>Wyncode Graduate</p> */}
                 </div>
                 <div className="carousel-wrapper">
