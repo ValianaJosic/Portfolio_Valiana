@@ -41,7 +41,7 @@ function Projects() {
           <Card.Text className='card-text'>
             My first project as a graduated Full-Stack Web Developer ! Designed and developed Realtor website for client.
       </Card.Text>
-          <Button className='card-btn' variant="primary"><a className='card-btn-font' href='https://thais.herokuapp.com/' target="_blank" rel="noopener  noreferrer" >Thaisreyes.com</a></Button>
+          <Button className='card-btn thais-btn' variant="primary"><a className='card-btn-font thais-btn' href='https://thais.herokuapp.com/' target="_blank" rel="noopener  noreferrer" >Thaisreyes.com</a></Button>
         </Card.Body>
       </Card> 
     </div>
