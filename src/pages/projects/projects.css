@@ -89,26 +89,16 @@
 @media (max-width: 40em) {
 
  
-.card-btn{
+.invis{
     visibility: hidden;
+  
+}
+.card{
+ position: fixed;
+ top:20%;
+ left: 70px;
 }
 
-     .thais-btn {
-        position: fixed;
-        height: 50px;
-        width: 200px;
-        top: 350px;
-        left: 80px;
-        visibility: visible;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-    }
 
-    .card, .card-wrapper{
-        visibility: hidden;
-     
-    }
+ 
     }

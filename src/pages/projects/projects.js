@@ -12,7 +12,7 @@ function Projects() {
 
     <Fragment>
     <div className='card-wrapper' >
-      <Card className='card' style={{ width: '18rem' }}>
+      <Card className='card invis' style={{ width: '18rem' }}>
         <Card.Img style={{ width: '215px', height: '136.03px' }} variant="top" src={Arcadia} />
         <Card.Body>
           <Card.Title className='card-title'>Arcadia</Card.Title>
@@ -23,7 +23,7 @@ function Projects() {
         </Card.Body>
       </Card>
 
-      <Card className='card' style={{ width: '18rem' }}>
+      <Card className='card invis' style={{ width: '18rem' }}>
         <Card.Img style={{ width: '18rem',  height: '136.03px' }} variant="top" src={ToDo} />
         <Card.Body>
           <Card.Title className='card-title'>ToDo APP</Card.Title>
@@ -34,7 +34,7 @@ function Projects() {
         </Card.Body>
       </Card>
 
-      <Card className='card' style={{ width: '18rem' }}>
+      <Card className='card ' style={{ width: '18rem' }}>
         <Card.Img style={{ width: '18rem' }} variant="top" src={Thais} />
         <Card.Body>
           <Card.Title className='card-title'>Realtor Website</Card.Title>
