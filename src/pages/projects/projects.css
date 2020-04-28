@@ -46,6 +46,7 @@
     transition: 0.4s ease-out;
     position: relative;
     left: 0px;  
+    z-index: 100;
 }
 
 
@@ -68,12 +69,18 @@
     position: absolute;
     height: 300px;
     width: 600px;
-    top: 60px;
-    left: calc(50% - 300px);
+    top: 150px;
+    left: 7%;
     display: flex;
     padding-top: 100px; 
 }
 
 .Site-content{
     background-color: #FDFCF9;
+}
+
+.light{
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
