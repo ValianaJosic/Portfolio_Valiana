@@ -51,7 +51,7 @@
 
 
 .card:not(:first-child) {
-    margin-left: -50px;
+    margin-left: -90px;
 }
 
 .card:hover {
@@ -70,7 +70,7 @@
     height: 300px;
     width: 600px;
     top: 150px;
-    left: 7%;
+    left: 6%;
     display: flex;
     padding-top: 100px; 
 }
