@@ -20,7 +20,7 @@ function Projects() {
             <Card.Text className='card-text'>
               Wyncode Final Project for Graduation day. Worked together with a UX/UI and developer team.(Mobile only)
       </Card.Text>
-            <Button className='card-btn' variant="primary"><a className='card-btn-font' href='https://arcadiaivf.herokuapp.com/' target="_blank" rel="noopener  noreferrer" >Arcadia.com</a></Button>
+            <Button className='card-btn' variant="primary"><a className='card-btn-font' href='https://arcadiaivf.herokuapp.com/' target="_blank" rel="noopener  noreferrer" >Arcadia</a></Button>
           </Card.Body>
         </Card>
 
@@ -31,7 +31,7 @@ function Projects() {
             <Card.Text className='card-text'>
               Built simple To Do application. Allows users to add, complete, and delete tasks.
       </Card.Text>
-            <Button className='card-btn' variant="primary"><a className='card-btn-font' href='https://fullstacktasks-valiana-c35.herokuapp.com/' target="_blank" rel="noopener  noreferrer" >ToDoApp.com</a></Button>
+            <Button className='card-btn' variant="primary"><a className='card-btn-font' href='https://fullstacktasks-valiana-c35.herokuapp.com/' target="_blank" rel="noopener  noreferrer" >ToDoApp</a></Button>
           </Card.Body>
         </Card>
 
@@ -43,7 +43,7 @@ function Projects() {
               Hello World ! My first Portfolio Site created after Wyncode graduation.
               HTML, CSS , JS.
       </Card.Text>
-            <Button className='card-btn' variant="primary"><a className='card-btn-font' href='https://valianajosic.github.io/all_about_me/' target="_blank" rel="noopener  noreferrer" >FirstPortfolio.com</a></Button>
+            <Button className='card-btn' variant="primary"><a className='card-btn-font' href='https://valianajosic.github.io/all_about_me/' target="_blank" rel="noopener  noreferrer" >FirstPortfolio</a></Button>
           </Card.Body>
         </Card>
 
@@ -54,7 +54,7 @@ function Projects() {
             <Card.Text className='card-text'>
               My first project as a graduated Full-Stack Web Developer ! Designed and developed Realtor website for client.
       </Card.Text>
-            <Button className='card-btn thais-btn' variant="primary"><a className='card-btn-font thais-btn' href='https://thais.herokuapp.com/' target="_blank" rel="noopener  noreferrer" >Thaisreyes.com</a></Button>
+            <Button className='card-btn thais-btn' variant="primary"><a className='card-btn-font thais-btn' href='https://thais.herokuapp.com/' target="_blank" rel="noopener  noreferrer" >ThaisReyes</a></Button>
           </Card.Body>
         </Card>
       </div>
