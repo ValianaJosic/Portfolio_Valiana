@@ -51,10 +51,10 @@ class Nav extends Component {
                 <li className='nav-link'><NavLink to='/projects' className='nav-name'>Projects</NavLink></li>
                 <li className='nav-link'><NavLink to='/contact' className='nav-name'>Contact</NavLink></li>
                 <li className="nav-link"><a href="https://www.linkedin.com/in/valiana-josic/" target="_blank" rel="noopener  noreferrer" className="nav-name">
-                <i className="fa fa-linkedin"></i> LinkedIn 
+                    <i className="fa fa-linkedin"></i> LinkedIn
                 </a></li>
                 <li className="nav-link"><a href="https://github.com/ValianaJosic" target="_blank" rel="noopener  noreferrer" className="nav-name">
-                <i class="fa fa-github" aria-hidden="true"></i> GitHub
+                    <i class="fa fa-github" aria-hidden="true"></i> GitHub
                 </a></li>
             </ul>
         )
@@ -65,7 +65,7 @@ class Nav extends Component {
             <Fragment>
                 <div className='name'>
                     <span className='dev'>Valiana Josic</span>
-                   <div></div>
+                    <div></div>
                     <span classname='dev-name'>Web Developer</span>
                 </div>
                 <div className='navbar'>

@@ -4,6 +4,7 @@ import Video from '../../assets/videos/data.mp4'
 import Scroll from '../home/scroll/scroll'
 import Actionbtn from '../home/action-btn/action-btn'
 import About from './about-me/about-me'
+import Interests from './interests/interests';
 
 
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
         <Scroll />
       </div>
       <About />
+      <Interests />
     </div>
   );
 }
