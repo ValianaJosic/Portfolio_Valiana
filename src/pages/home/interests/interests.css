@@ -68,7 +68,7 @@ p{
 @media (max-width: 40em) {
 
  
-    .img-hov{
+    .img-hov, .img-last{
         visibility: hidden;
         
 
