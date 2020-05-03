@@ -29,11 +29,26 @@ p{
 }
 
 .intro{
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     font-family: 'Merriweather', serif;
     padding-top: 40px;
-    font-size: 30px;
+    font-size: 60px;
     border-bottom: 2px solid #FDFCF5;
+}
+
+.halo{
+    display: inline;
+	position: relative;
+	letter-spacing: -4px;
+	color: #16697A;   
+;
+}
+
+
+.halo:after{
+    content: "Me";
+	position: absolute; left: 16px; top: 5px;
+	color:#FDFCF5;   
 }
 
 .img-hov{
@@ -81,6 +96,9 @@ p{
 
     .intro{
        text-align: center;
+       
     }
             }
     
+
+            

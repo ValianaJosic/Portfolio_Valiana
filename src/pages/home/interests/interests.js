@@ -15,7 +15,7 @@ import blue from '../../../assets/images/blue.jpeg'
 function Interests() {
   return (
     <div className='int-wrapper'>
-    <div className='int-text intro'>Things I Love and Some Interests</div>
+    <div className='int-text intro'><p className='halo'>Me</p></div>
       <div className='img-grid'>
         <div className='int-text'><img alt='' src={family} className="img-grid grid-pic"></img></div> 
         <p className="img-hov">I Love my Famliy</p> 
