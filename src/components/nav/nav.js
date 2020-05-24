@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import '../nav/nav.css'
+import { NavLink } from 'react-router-dom';
 import HamburgerMenu from 'react-hamburger-menu';
 
 class Nav extends Component {
@@ -36,9 +37,9 @@ class Nav extends Component {
     displayNavBar = () => {
         return (
             <ul className='nav'>
-                <li className='nav-link'><a href='/' >Home</a></li>
-                <li className='nav-link'><a href='/projects'>Projects</a></li>
-                <li className='nav-link'><a href='/contact'>Contact</a></li>
+                <li className='nav-link'><NavLink to='/' >Home</NavLink></li>
+                <li className='nav-link'><NavLink to='/projects'>Projects</NavLink></li>
+                <li className='nav-link'><NavLink to='/contact'>Contact</NavLink></li>
             </ul>
         )
     }
@@ -46,9 +47,9 @@ class Nav extends Component {
     displayMobileMenu = () => {
         return (
             <ul className='hamburgerDropDown'>
-                <li className='nav-link'><a href='/' className='nav-name'>Home</a></li>
-                <li className='nav-link'><a href='/projects' className='nav-name'>Projects</a></li>
-                <li className='nav-link'><a href='/contact' className='nav-name'>Contact</a></li>
+                <li className='nav-link'><NavLink to='/' className='nav-name'>Home</NavLink></li>
+                <li className='nav-link'><NavLink to='/projects' className='nav-name'>Projects</NavLink></li>
+                <li className='nav-link'><NavLink to='/contact' className='nav-name'>Contact</NavLink></li>
                 <li className="nav-link"><a href="https://www.linkedin.com/in/valiana-josic/" target="_blank" rel="noopener  noreferrer" className="nav-name">
                     <i className="fa fa-linkedin"></i> LinkedIn
                 </a></li>
