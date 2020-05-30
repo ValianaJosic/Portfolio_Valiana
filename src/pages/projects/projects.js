@@ -6,6 +6,7 @@ import Arcadia from '../../assets/images/arcadia.png'
 import ToDo from '../../assets/images/todo.png'
 import Light from '../../assets/images/proj.jpeg'
 import Port from '../../assets/images/port.jpeg'
+import Maggie from '../../assets/images/maggie.png'
 
 
 function Projects() {
@@ -48,6 +49,18 @@ function Projects() {
         </Card>
 
         <Card className='card ' style={{ width: '18rem' }}>
+          <Card.Img style={{ width: '18.2rem' }} variant="top" src={Maggie} />
+          <Card.Body>
+            <Card.Title className='card-title'>Coach Website</Card.Title>
+            <Card.Text className='card-text'>
+              Developer and designer for Spinning Coach personal web page.
+              Still under development.
+      </Card.Text>
+            <Button className='card-btn thais-btn' variant="primary"><a className='card-btn-font thais-btn' href='https://www.maggiemijares.com/' target="_blank" rel="noopener  noreferrer" >SpinCoach</a></Button>
+          </Card.Body>
+        </Card>
+
+      <Card className='card ' style={{ width: '18rem' }}>
           <Card.Img style={{ width: '18rem' }} variant="top" src={Thais} />
           <Card.Body>
             <Card.Title className='card-title'>Realtor Website</Card.Title>
