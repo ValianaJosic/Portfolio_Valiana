@@ -15,12 +15,16 @@
     height: 25px;
     width: 500px;
     border-radius: 5px;
+    border-color: #489FB5;
+    outline: none;
 }
 
 .form-area{
     height: 80px;
     width: 500px;
     border-radius: 5px;
+    border-color: #489FB5;
+    outline: none;
 }
 
 .form-btn{
