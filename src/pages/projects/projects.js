@@ -4,7 +4,7 @@ import { Card, Button } from 'react-bootstrap';
 import Thais from '../../assets/images/thais.png'
 import Arcadia from '../../assets/images/arcadia.png'
 import ToDo from '../../assets/images/todo.png'
-import Light from '../../assets/images/proj.jpeg'
+import Light from '../../assets/images/compwide1.jpeg'
 import Port from '../../assets/images/port.jpeg'
 import Maggie from '../../assets/images/maggie.png'
 
@@ -13,6 +13,8 @@ function Projects() {
   return (
 
     <Fragment>
+      <img alt='' src={Light} className='light'></img>
+      <h1 className="projects-title">Projects</h1>
       <div className='card-wrapper' >
         <Card className='card invis' style={{ width: '18rem' }}>
           <Card.Img style={{ width: '215px', height: '136.03px' }} variant="top" src={Arcadia} />
@@ -71,7 +73,6 @@ function Projects() {
           </Card.Body>
         </Card>
       </div>
-      <img alt='' src={Light} className='light'></img>
     </Fragment>
   );
 }
