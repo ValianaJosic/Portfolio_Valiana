@@ -18,7 +18,9 @@ function Home() {
         <Scroll />
       </div>
       <About />
+      <div className='home-proj'>
       <Projects/>
+      </div>
     </div>
   );
 }
