@@ -7,6 +7,7 @@ import ToDo from '../../assets/images/todo.png'
 import Light from '../../assets/images/compwide1.jpeg'
 import Port from '../../assets/images/port.jpeg'
 import Maggie from '../../assets/images/maggie.png'
+import Resume from '../../assets/file/ValianaResume.pdf'
 
 
 
@@ -73,6 +74,11 @@ function Projects() {
             <Button className='card-btn thais-btn' variant="primary"><a className='card-btn-font thais-btn' href='https://www.thaisrealtor.com/' target="_blank" rel="noopener  noreferrer" >RealtorWeb</a></Button>
           </Card.Body>
         </Card>
+      </div>
+      <div className="resume-padd">
+        <div className="resume">
+          <a href={Resume} download="ValianaJosicResume" className="resume-name">Download Resume</a>
+        </div>
       </div>
     </Fragment>
   );

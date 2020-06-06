@@ -94,9 +94,44 @@
 
 
 .resume{
+    position: relative;
+    left: 40%;
+    height: 50px;
+    width: 300px;
+    border: 1px solid #fff;
+    background-color:#16697A;
     text-align: center;
+    text-decoration: none;
+    border-radius: 10px;   
 }
 
+.resume-padd{
+    padding-bottom: 60px;
+    border-top: 2px solid #16697A;
+    padding-top: 60px;
+}
+
+.resume-name{
+    font-size: 20px;
+    color: #FDFCF9;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.50em;
+    margin-block-end: 0.60em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.resume:hover{
+    background-color: #82C0CC;
+    text-decoration: none;
+  }
+
+  .resume-name:hover{
+    color: #16697A;
+  }
 
 @media (max-width: 40em) {
 
