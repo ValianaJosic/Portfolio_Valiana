@@ -135,6 +135,10 @@
 
 @media (max-width: 40em) {
 
+    .resume{
+        position: relative;
+        left: 5%;
+    }
  
 .invis, .home-proj{
     display: none;
