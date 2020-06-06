@@ -16,8 +16,8 @@ function Projects() {
 
     <Fragment>
       <img alt='' src={Light} className='light'></img>
-      <h1 className="projects-title">Projects</h1>
-      <div className='card-wrapper' >
+      <h1 className="projects-title home-proj">Projects</h1>
+      <div className='card-wrapper home-proj' >
         <Card className='card invis' style={{ width: '18rem' }}>
           <Card.Img style={{ width: '215px', height: '136.03px' }} variant="top" src={Arcadia} />
           <Card.Body>
