@@ -7,12 +7,12 @@
 }
 
 .projects-title{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
     color: #16697A;
-    font-size: 60px;
+    font-size: 45px;
     text-align: center;
     border-bottom: 2px solid #16697A;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     margin-top: 4px;
 }
 
@@ -76,7 +76,7 @@
 .card-wrapper{
     padding-left: 150px;
     padding-top: 80px;
-    height: 600px;
+    height: 500px;
     width: 600px;
     display: flex;
 }
@@ -93,11 +93,16 @@
 }
 
 
+.resume{
+    text-align: center;
+}
+
+
 @media (max-width: 40em) {
 
  
-.invis{
-    visibility: hidden;
+.invis, .home-proj{
+    display: none;
   
 }
 .card{
