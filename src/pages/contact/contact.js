@@ -20,6 +20,7 @@ export default class MyForm extends React.Component {
 
     return (
       <Fragment>
+      <h1 className='contact-title'>Contact Me</h1>
       <div><img alt='' src={Desktop} className='desktop'></img></div>
       <form
         onSubmit={this.submitForm}
