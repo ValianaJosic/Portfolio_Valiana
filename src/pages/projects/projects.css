@@ -37,9 +37,17 @@
     border-left-style: hidden;
 }
 
+.card-btn:hover{
+    background-color: #82C0CC;
+}
+
+
+.card-btn-font:hover{
+    color: #16697A;
+}
+
 .card-btn-font{
     color: #FDFCF9;
-
 }
 
 .card-text{
