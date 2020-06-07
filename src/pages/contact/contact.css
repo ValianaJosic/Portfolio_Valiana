@@ -5,10 +5,10 @@
     padding-left: 40px;
     font-family: 'Merriweather', serif;
     position: absolute;
-    left: 35%;
-    margin-left: -35px;
-    top: 15%;
-    margin-top: -15px;
+    left: 10%;
+    margin-left: -10px;
+    top: 25%;
+    margin-top: -25px;
 }
 
 .form-input{
@@ -51,6 +51,7 @@ label{
     font-family: 'Merriweather', serif;
     margin-bottom: 10px;
     margin-top: 10px;
+    font-size: 25px;
 }
 
 input:focus, textarea { 
