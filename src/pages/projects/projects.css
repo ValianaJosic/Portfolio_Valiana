@@ -31,6 +31,10 @@
     margin: 50px;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+    border-top-style: hidden;
+    border-left-style: hidden;
 }
 
 .card-btn-font{
