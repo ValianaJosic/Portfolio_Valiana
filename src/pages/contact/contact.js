@@ -27,11 +27,11 @@ export default class MyForm extends React.Component {
         method="POST"
         className='form'
       > 
-        <label className='form-label'>NAME</label>
+        <label className='form-label'>Name</label>
         <input className='form-input'type="text" name="name" />
-        <label  className='form-label'>EMAIL</label>
+        <label  className='form-label'>Email</label>
         <input className='form-input' type="email" name="email" />
-        <label  className='form-label'>MESSAGE</label>
+        <label  className='form-label'>Message</label>
         <textarea className='form-area' type="textarea" name="message" />
         {status === "SUCCESS" ? <p>Thanks!</p> : <button className='form-btn'>SUBMIT</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
