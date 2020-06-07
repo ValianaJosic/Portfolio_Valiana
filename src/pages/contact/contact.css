@@ -5,10 +5,10 @@
     padding-left: 40px;
     font-family: 'Merriweather', serif;
     position: absolute;
-    left: 10%;
-    margin-left: -10px;
-    top: 25%;
-    margin-top: -25px;
+    left: 8%;
+    margin-left: -8px;
+    top: 35%;
+    margin-top: -35px;
 }
 
 .form-input{
@@ -16,6 +16,10 @@
     width: 500px;
     border-radius: 5px;
     outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
 }
 
 .form-area{
@@ -66,6 +70,13 @@ input:focus, textarea {
     border-bottom: 2px solid #16697A;
 }
 
+.contact-title{
+    color: #16697A;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    border-bottom: 2px solid #16697A;
+    background-color: #FDFCF9;
+}
 
 
 @media (max-width: 40em) {
