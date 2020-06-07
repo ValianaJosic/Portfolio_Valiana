@@ -39,6 +39,10 @@
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+    border-top-style: hidden;
+    border-left-style: hidden;
 }
 
 .form-btn{
@@ -47,6 +51,11 @@
     color: #FDFCF9;
     text-align: center;
     margin-left: 90px;
+}
+
+.form-btn:hover{
+    background-color: #82C0CC;
+    color: #16697A;
 }
 
 label{
