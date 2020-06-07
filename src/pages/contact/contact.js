@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import './contact.css';
-import Desktop from '../../assets/images/desktop.jpg'
+import Desktop from '../../assets/images/desktop1.jpeg'
 
 
 export default class MyForm extends React.Component {
@@ -27,13 +27,13 @@ export default class MyForm extends React.Component {
         method="POST"
         className='form'
       > 
-        <label className='form-label'>Name</label>
+        <label className='form-label'>NAME</label>
         <input className='form-input'type="text" name="name" />
-        <label  className='form-label'>Email</label>
+        <label  className='form-label'>EMAIL</label>
         <input className='form-input' type="email" name="email" />
-        <label  className='form-label'>Message</label>
+        <label  className='form-label'>MESSAGE</label>
         <textarea className='form-area' type="textarea" name="message" />
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button className='form-btn'>Submit</button>}
+        {status === "SUCCESS" ? <p>Thanks!</p> : <button className='form-btn'>SUBMIT</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
       </Fragment>
