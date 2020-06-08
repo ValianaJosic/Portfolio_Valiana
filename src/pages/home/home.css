@@ -5,4 +5,8 @@
   
   .video-div{
     background-color: #16697A;
+    background-image: '../../assets/images/hero-img.jpg';
+    background-position: 'center';
+    background-size: 'cover';
+    background-repeat: 'no-repeat';
   }
