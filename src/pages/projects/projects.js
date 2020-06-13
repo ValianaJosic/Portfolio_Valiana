@@ -48,7 +48,7 @@ function Projects() {
               Hello World ! My first Portfolio Site created after Wyncode graduation.
               HTML, CSS , JS.
       </Card.Text>
-            <Button className='card-btn' variant="primary"><a className='card-btn-font' href='https://valianajosic.github.io/all_about_me/' target="_blank" rel="noopener  noreferrer" >FirstPortfolio</a></Button>
+            <Button className='card-btn' variant="primary"><a className='card-btn-font' href='https://valianajosic.github.io/all_about_me/' target="_blank" rel="noopener  noreferrer" >Portfolio</a></Button>
           </Card.Body>
         </Card>
 
@@ -60,7 +60,7 @@ function Projects() {
               Developer and designer for Spinning Coach personal web page.
               Still under development.
       </Card.Text>
-            <Button className='card-btn thais-btn' variant="primary"><a className='card-btn-font thais-btn' href='https://www.maggiemijares.com/' target="_blank" rel="noopener  noreferrer" >SpinCoach</a></Button>
+            <Button className='card-btn thais-btn' variant="primary"><a className='card-btn-font thais-btn' href='https://www.maggiemijares.com/' target="_blank" rel="noopener  noreferrer" >Coach</a></Button>
           </Card.Body>
         </Card>
 
@@ -71,7 +71,7 @@ function Projects() {
             <Card.Text className='card-text'>
               My first project as a graduated Full-Stack Web Developer ! Designed and developed Realtor website for client.
       </Card.Text>
-            <Button className='card-btn thais-btn' variant="primary"><a className='card-btn-font thais-btn' href='https://www.thaisrealtor.com/' target="_blank" rel="noopener  noreferrer" >RealtorWeb</a></Button>
+            <Button className='card-btn thais-btn' variant="primary"><a className='card-btn-font thais-btn' href='https://www.thaisrealtor.com/' target="_blank" rel="noopener  noreferrer" >Realtor</a></Button>
           </Card.Body>
         </Card>
       </div>

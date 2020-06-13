@@ -42,14 +42,14 @@
 .name{
   color: #FDFCF9;
   position: absolute;
-  left: 65%;
-  top: 20%;
+  left: 57%;
+  top: 15%;
   padding:30px;
   text-align: center;
 }
 
 .dev{
-  font-size: 50px;
+  font-size: 70px;
   font-family: 'Merriweather', serif;
 }
 
