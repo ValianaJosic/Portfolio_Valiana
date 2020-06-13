@@ -39,7 +39,7 @@
     background-color:#16697A;   
     text-align: center;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 5px;
     border-bottom-style: hidden;
     border-right-style: hidden;
     border-top-style: hidden;
@@ -86,6 +86,7 @@ input:focus, textarea {
     text-align: center;
     border-bottom: 2px solid #16697A;
     background-color: #FDFCF9;
+    font-size: 40px;
 }
 
 
