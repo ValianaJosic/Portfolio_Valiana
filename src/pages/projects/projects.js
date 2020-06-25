@@ -8,6 +8,7 @@ import Light from '../../assets/images/compwide1.jpeg'
 import Port from '../../assets/images/port.jpeg'
 import Maggie from '../../assets/images/maggie.png'
 import Resume from '../../assets/file/ValianaResume.pdf'
+import Mobile from '../../assets/images/nmobile.png'
 
 
 
@@ -61,6 +62,17 @@ function Projects() {
               Still under development.
       </Card.Text>
             <Button className='card-btn thais-btn' variant="primary"><a className='card-btn-font thais-btn' href='https://www.maggiemijares.com/' target="_blank" rel="noopener  noreferrer" >Coach</a></Button>
+          </Card.Body>
+        </Card>
+
+        <Card className='card ' style={{ width: '18rem' }}>
+          <Card.Img style={{ width: '18rem', height: '136.03px' }} variant="top" src={Mobile} />
+          <Card.Body>
+            <Card.Title className='card-title'>Nmobile</Card.Title>
+            <Card.Text className='card-text'>
+              Current Project I am Designing and developing. Nmobile ERP, Business Apps website for client.
+      </Card.Text>
+            <Button className='card-btn thais-btn' variant="primary"><a className='card-btn-font thais-btn' href='https://nmobile.netlify.app/' target="_blank" rel="noopener  noreferrer" >Nmobile</a></Button>
           </Card.Body>
         </Card>
 
