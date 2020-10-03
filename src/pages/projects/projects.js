@@ -56,7 +56,7 @@ function Projects() {
         <Card className='card ' style={{ width: '18rem' }}>
           <Card.Img style={{ width: '18.2rem' }} variant="top" src={Maggie} />
           <Card.Body>
-            <Card.Title className='card-title'>Coach Website</Card.Title>
+            <Card.Title className='card-title'>Coach</Card.Title>
             <Card.Text className='card-text'>
               Developer and designer for Spinning Coach personal web page.
               Still under development.

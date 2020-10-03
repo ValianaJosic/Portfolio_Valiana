@@ -89,6 +89,11 @@ input:focus, textarea {
     font-size: 40px;
 }
 
+.submission-greet{
+    color: #16697A;
+    background-color: transparent;
+}
+
 
 @media (max-width: 40em) {
 
