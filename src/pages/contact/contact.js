@@ -34,8 +34,8 @@ export default class MyForm extends React.Component {
         <input className='form-input' type="email" name="email" />
         <label  className='form-label'>Message</label>
         <textarea className='form-area' type="textarea" name="message" />
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button className='form-btn'>SUBMIT</button>}
-        {status === "ERROR" && <p>Ooops! There was an error.</p>}
+        {status === "SUCCESS" ? <p className='submission-greet'>Thank You</p> : <button className='form-btn'>SUBMIT</button>}
+        {status === "ERROR" && <p className='submission-greet'>Ooops! There was an error.</p>}
       </form>
       </Fragment>
     );
