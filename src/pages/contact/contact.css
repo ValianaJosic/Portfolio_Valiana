@@ -92,6 +92,7 @@ input:focus, textarea {
 .submission-greet{
     color: #16697A;
     background-color: transparent;
+    text-align: center;
 }
 
 
